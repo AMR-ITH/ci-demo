@@ -18,7 +18,7 @@ jobs:
       - name : install flaske8
         run: |
           python -m pip install --upgrade pip
-          pip install flask8
+          pip install flake8
       - name : run flake8
         run : |
           flaske8 app.py
